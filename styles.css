@@ -82,7 +82,7 @@ a:hover {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-  padding-bottom: 360px; 
+  padding-bottom: 60px; 
 }
 .exp-header{
   text-align: center;
@@ -106,18 +106,15 @@ header {
   line-height: 1.5;
 }
 
-header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
-}
 
-ul li{
-  padding:20px;
-  border: 20px;
-}
+
+
+
+
 .titleh2 {
   font-family:monospace;
   color: white;
-  font-size: 400%;
+  font-size: 500%;
 }
 .tag-name{
 
@@ -125,6 +122,8 @@ ul li{
   color: white;
   font-size: 500%;
 }
+
+
 .tag {
 
 
@@ -144,6 +143,7 @@ ul li{
 
 
 #profile-image  {
+  float: left;
 
   border-radius: 50%;
   border: solid white 2px;
@@ -165,17 +165,18 @@ ul li{
 
  
 ul.skills {
-  padding: 0;
+  padding: 20px;
   text-align: center;
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 16px;
   display: inline-block;
   background: #ff9904;
   color: white;
-  padding: 5px 10px;
+  padding: 15px 10px;
   margin: 2px;
+  border: 0px;
 }
 
 .skills li:nth-child(odd) {
@@ -206,31 +207,7 @@ footer ul li {
   display: inline-block;
 }
 
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
-a.social:hover {
-  opacity: 1;
-}
-.clearfix {
-  clear: both;
-}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
