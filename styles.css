@@ -151,7 +151,11 @@ header .profile-image:hover {
 .my-interests{
   text-align: center;
   background-color: lightgrey;
-  padding: 50px;
+ 
+}
+#interests{
+  text-align: center;
+  padding-top: 100px;
 }
  .card {
   margin: 30px;
@@ -249,6 +253,7 @@ a.social:hover {
       margin: 0 auto;
       background-color: lightgrey;
       padding:25px;
+      text-align: center;
      
       
   }
