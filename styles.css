@@ -82,7 +82,7 @@ a:hover {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-  padding-bottom: 60px; 
+  padding-bottom: 190px; 
 }
 .exp-header{
   text-align: center;
@@ -140,13 +140,18 @@ header {
  
   color: black;
 }
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
 
-
-#profile-image  {
-  float: left;
-
+#prof-image  {
   border-radius: 50%;
   border: solid white 2px;
+}
+.my-interests{
+  text-align: center;
+  background-color: lightgrey;
+  padding: 50px;
 }
  .card {
   margin: 30px;
@@ -206,7 +211,30 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
 
+
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
 
 
 /* Styles for larger screens */
